@@ -7,4 +7,5 @@ Adds additional information to some devices' info panels.
 - Drop the dll into `<Game Folder>/BepInEx/plugins`
 
 # Multiplayer compatible?  
-Yes! At the moment, everything here is purely clientside.
+No. The code is clientside, and the game doesn't synchronize that data back to the client. You'll see the extra text,
+but the data isn't present locally to be properly displayed.
